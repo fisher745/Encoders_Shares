@@ -15,8 +15,8 @@
 # [Dovi.Scripts Encoding]
 
 1. Once verified that Dolby Vision metadata exists, run the`Dovi_Scripts_MKV.bat` file and select `MODE.I= INJECT / EDIT / EXTRACT / INFO / VALIDATE`and follow the instructions given there, add the **“OG”** file here, and read the Dolby Vision metadata values`Top, Bottom, Left and Right`
-2. It should be like this
-3. And not like this
+2. It should be [like this](https://github.com/fisher745/Encoders_Shares/blob/main/Ok-Info_Screen_of_Dovi.Scripts.png)
+3. And not [like this](https://github.com/fisher745/Encoders_Shares/blob/main/Not_Ok-Info_Screen_of_Dovi.Scripts.png)
 4. If the values are wrong as shown above, follow the below steps. (this will take time, so be patient.)
 5. Run `DoVi.Scripts\tools\AvsPmod\AvsPmod.exe`this application and drag and drop the **“OG”** file. Select `Video>Crop` in this window and enter the crop values. Refer to this [youtube video](https://www.youtube.com/watch?v=jBqbG5XM54g&list=PLFGpkrmX_eOL2Dre1ZyIJP2uMtcQYH8ql&index=7&pp=iAQB) for better understanding.
 6. Again run the`Dovi_Scripts_MKV.bat` file, and select `MODE.H= DoVi MAKER from HDR10 (Dolby Algo or MadVR or HDR10+)`
