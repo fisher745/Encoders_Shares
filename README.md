@@ -2,7 +2,7 @@
 
 # [Install/Download using the below instruction]
 
-1. [StaxRip](https://github.com/staxrip/staxrip/releases/) (read the [author's wiki](https://github.com/staxrip/staxrip/wiki)) and paste the Templates folder ([Link to download the Templates](https://github.com/fisher745/Encoders_Shares/blob/main/Templates.7z)) contents into it`StaxRip>Settings>Templates` and run the StaxRip app and select the `Settings`folder as the option (one-time setup).
+1. [StaxRip](https://github.com/staxrip/staxrip/releases/) (read the [author's wiki](https://github.com/staxrip/staxrip/wiki)) and paste the Templates folder ([Link to download the Templates](https://github.com/fisher745/Encoders_Shares/blob/main/Templates.7z)) contents into it `StaxRip>Settings>Templates` and run the StaxRip app and select the `Settings` folder as the option (one-time setup).
 2. Run these using PowerShell/Command Prompt: [install\_apps.bat](https://github.com/fisher745/Encoders_Shares/blob/main/install_apps.bat) & [install\_python\_libraries.bat](https://github.com/fisher745/Encoders_Shares/blob/main/install_python_libraries.bat)
 3. [Dovi.Scripts](https://github.com/R3S3t9999/DoVi_Scripts), carefully read the instructions given by the author to set up. Also refer to the [youtube playlist](https://youtube.com/playlist?list=PLFGpkrmX_eOL2Dre1ZyIJP2uMtcQYH8ql&si=8NahH9MHSyHtc0ej) for your reference
 
@@ -19,16 +19,16 @@
 3. And not [like this](https://github.com/fisher745/Encoders_Shares/blob/main/Not_Ok-Info_Screen_of_Dovi.Scripts.png)
 4. If the values are wrong as shown above, follow the below steps. (this will take time, so be patient.)
 5. Run `DoVi.Scripts\tools\AvsPmod\AvsPmod.exe` this application and drag and drop the **“OG”** file. Select `Video>Crop` in this window and enter the crop values. Refer to this [youtube video](https://www.youtube.com/watch?v=jBqbG5XM54g&list=PLFGpkrmX_eOL2Dre1ZyIJP2uMtcQYH8ql&index=7&pp=iAQB) for better understanding.
-6. If you haven't closed the `Dovi_Scripts_MKV.bat` file, then select `CHOICES: (default=X Exit) Exit=X   L5=5 L6=6 L9=9 Resync=R or D SceneCut_Edit=F Source_PQ=Q PLOT=P Extract=E Check_Sync=S Metafier=M Transfer_Levels=T P7_to_P8=7 Remover=V`, choose option `'5'`
+6. If you haven't closed the `Dovi_Scripts_MKV.bat` file, then select `CHOICES: (default=X Exit) Exit=X L5=5 L6=6 L9=9 Resync=R or D SceneCut_Edit=F Source_PQ=Q PLOT=P Extract=E Check_Sync=S Metafier=M Transfer_Levels=T P7_to_P8=7 Remover=V`, choose option `'5'`
 7. Input the relevant value; recommended is using `manual option 'm'`
 8. Input the required `Top, Bottom, Left and Right` values and then proceed.
 9. Once if everything is correct, you should now have a fresh new file of **“OG”** as **“OG\_DV”**
 
 # [StaxRip Encoding]
 
-1. Start the StaxRip app, and then select `File>Templates>Select the relevant template` for `Source` select the “OG”/“OG\_DV” file, whichever is relevant.
-2. Once StaxRip has successfully imported the file, verify details about the same are getting shown properly [like this](https://github.com/staxrip/staxrip/raw/master/Image/Screenshots/Main.png).
-3. If you wish to make edits to the metadata of a file, like the audio name tags and subtitle tags, etc. Click, `Container Options` , and you should see something [like this](https://raw.githubusercontent.com/staxrip/staxrip/master/Image/Screenshots/Muxing.png).
+1. Start the StaxRip app, and then select `File>Templates>Select the relevant template` for `Source` select the **“OG”/“OG\_DV”** file, whichever is relevant.
+2. Once StaxRip has successfully imported the file, verify details about the same are getting shown properly.
+3. If you wish to make edits to the metadata of a file, like the audio name tags and subtitle tags, etc. Click, `Container Options`.
 4. Once all is in place, click `Add Job` and `Start`.
 5. Once StaxRip has finished processing, you should now have **“OG\_new” / “OG\_DV\_new”**.
 
