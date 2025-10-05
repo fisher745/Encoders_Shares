@@ -10,18 +10,18 @@
 
 # [Blu-ray Ripping & Reading Metadata]
 
-1. Rip the Blu-ray using MakeMKV (already installed from install\_apps.bat script), and verify the now created MKV file (hereinafter referred to as the **"OG"** file) contains the Dolby Vision or not by using the latest version of MediaInfo (already installed from the`install_apps.bat` script). Open the **“OG”** file in here and view it in either HTML or Text form, and look for the "HDR" info stating something like this `HDR format : Dolby Vision, Version 1.0, dvhe.07.06, BL+EL+RPU, Blu-ray compatible / SMPTE ST 2086, HDR10 compatible`
+1. Rip the Blu-ray using MakeMKV (already installed from install\_apps.bat script), and verify the now created MKV file (hereinafter referred to as the **"OG"** file) contains the Dolby Vision or not by using the latest version of MediaInfo (already installed from the `install_apps.bat` script). Open the **“OG”** file in here and view it in either HTML or Text form, and look for the "HDR" info stating something like this `HDR format : Dolby Vision, Version 1.0, dvhe.07.06, BL+EL+RPU, Blu-ray compatible / SMPTE ST 2086, HDR10 compatible`
 
 # [Dovi.Scripts Encoding]
 
-1. Once verified that Dolby Vision metadata exists, run the`Dovi_Scripts_MKV.bat` file and select `MODE.I= INJECT / EDIT / EXTRACT / INFO / VALIDATE`and follow the instructions given there, add the **“OG”** file here, and read the Dolby Vision metadata values`Top, Bottom, Left and Right`
+1. Once verified that Dolby Vision metadata exists, run the `Dovi_Scripts_MKV.bat` file and select `MODE.I= INJECT / EDIT / EXTRACT / INFO / VALIDATE` and follow the instructions given there, add the **“OG”** file here, and read the Dolby Vision metadata values `Top, Bottom, Left and Right`
 2. It should be [like this](https://github.com/fisher745/Encoders_Shares/blob/main/Ok-Info_Screen_of_Dovi.Scripts.png)
 3. And not [like this](https://github.com/fisher745/Encoders_Shares/blob/main/Not_Ok-Info_Screen_of_Dovi.Scripts.png)
 4. If the values are wrong as shown above, follow the below steps. (this will take time, so be patient.)
-5. Run `DoVi.Scripts\tools\AvsPmod\AvsPmod.exe`this application and drag and drop the **“OG”** file. Select `Video>Crop` in this window and enter the crop values. Refer to this [youtube video](https://www.youtube.com/watch?v=jBqbG5XM54g&list=PLFGpkrmX_eOL2Dre1ZyIJP2uMtcQYH8ql&index=7&pp=iAQB) for better understanding.
-6. Again run the`Dovi_Scripts_MKV.bat` file, and select `MODE.H= DoVi MAKER from HDR10 (Dolby Algo or MadVR or HDR10+)`
-7. Select the relevant option; recommended is using `Official Dolby cm_analyze.exe`
-8. Read the instructions carefully and then proceed.
+5. Run `DoVi.Scripts\tools\AvsPmod\AvsPmod.exe` this application and drag and drop the **“OG”** file. Select `Video>Crop` in this window and enter the crop values. Refer to this [youtube video](https://www.youtube.com/watch?v=jBqbG5XM54g&list=PLFGpkrmX_eOL2Dre1ZyIJP2uMtcQYH8ql&index=7&pp=iAQB) for better understanding.
+6. If you haven't closed the `Dovi_Scripts_MKV.bat` file, then select `CHOICES: (default=X Exit) Exit=X   L5=5 L6=6 L9=9 Resync=R or D SceneCut_Edit=F Source_PQ=Q PLOT=P Extract=E Check_Sync=S Metafier=M Transfer_Levels=T P7_to_P8=7 Remover=V`, choose option `'5'`
+7. Input the relevant value; recommended is using `manual option 'm'`
+8. Input the required `Top, Bottom, Left and Right` values and then proceed.
 9. Once if everything is correct, you should now have a fresh new file of **“OG”** as **“OG\_DV”**
 
 # [StaxRip Encoding]
